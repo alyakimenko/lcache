@@ -14,4 +14,7 @@ type Cache interface {
 
 	// Clears all cache elements.
 	Clear()
+
+	// Size returns number of the cache elements.
+	Size() int
 }
